@@ -129,4 +129,13 @@ object Form8: TForm8
     ItemHeight = 13
     TabOrder = 6
   end
+  object btn3: TButton
+    Left = 224
+    Top = 144
+    Width = 75
+    Height = 25
+    Caption = 'CLOSE'
+    TabOrder = 7
+    OnClick = btn3Click
+  end
 end

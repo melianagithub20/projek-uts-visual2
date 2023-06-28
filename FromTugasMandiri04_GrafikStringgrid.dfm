@@ -1,6 +1,6 @@
 object Form9: TForm9
-  Left = 628
-  Top = 51
+  Left = 506
+  Top = 158
   Width = 625
   Height = 579
   Caption = ' TUGAS MANDIRI 04 (GRAFIK & STRINGGRID)'
@@ -129,5 +129,14 @@ object Form9: TForm9
       PieValues.Multiplier = 1.000000000000000000
       PieValues.Order = loNone
     end
+  end
+  object btn3: TButton
+    Left = 240
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = 'KELUAR'
+    TabOrder = 7
+    OnClick = btn3Click
   end
 end

@@ -20,9 +20,11 @@ type
     psrsSeries1: TPieSeries;
     cbb1: TComboBox;
     lbl4: TLabel;
+    btn3: TButton;
     procedure btn1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btn2Click(Sender: TObject);
+    procedure btn3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -70,5 +72,10 @@ begin
 end;
 end;
 
+
+procedure TForm8.btn3Click(Sender: TObject);
+begin
+Application.Terminate;
+end;
 
 end.

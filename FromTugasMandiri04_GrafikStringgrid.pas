@@ -20,9 +20,11 @@ type
     cht1: TChart;
     psrsSeries1: TPieSeries;
     lbl4: TLabel;
+    btn3: TButton;
     procedure FormShow(Sender: TObject);
     procedure btn1Click(Sender: TObject);
     procedure btn2Click(Sender: TObject);
+    procedure btn3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -66,6 +68,11 @@ for i:=1 to strngrd1.rowcount-1 do
 begin
  cht1.Series[0].Add(StrToFloat(strngrd1.Cells[1,i]),strngrd1.Cells[2,i]);
 end;
+end;
+
+procedure TForm9.btn3Click(Sender: TObject);
+begin
+Application.Terminate;
 end;
 
 end.
