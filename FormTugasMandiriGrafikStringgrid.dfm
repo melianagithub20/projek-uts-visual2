@@ -134,7 +134,7 @@ object Form8: TForm8
     Top = 144
     Width = 75
     Height = 25
-    Caption = 'CLOSE'
+    Caption = 'KELUAR'
     TabOrder = 7
     OnClick = btn3Click
   end
