@@ -190,7 +190,7 @@ object Form11: TForm11
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45102.786982199100000000
-    ReportOptions.LastChange = 45102.973843807900000000
+    ReportOptions.LastChange = 45105.006706192130000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -371,7 +371,7 @@ object Form11: TForm11
           Left = 56.692950000000000000
           Width = 177.637910000000000000
           Height = 37.795300000000000000
-          TagStr = '(frxdbdtst1.'#39'kelas'#39')'
+          TagStr = '[frxdbdtst1."kelas"]'
           Color = clWhite
           DisplayFormat.DecimalSeparator = '.'
           Font.Charset = DEFAULT_CHARSET

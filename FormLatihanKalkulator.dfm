@@ -3,7 +3,7 @@ object Form3: TForm3
   Top = 100
   Width = 398
   Height = 365
-  Caption = 'LATIHAN KALKULATOR'
+  Caption = 'LATIHAN KALKULATOR (PERTAMBAHAN)'
   Color = 8421631
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

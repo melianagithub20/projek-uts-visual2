@@ -1,7 +1,7 @@
 object Form2: TForm2
   Left = 304
   Top = 156
-  Width = 383
+  Width = 419
   Height = 316
   Caption = 'HALAMAN MENU MASTER'
   Color = 8421440
@@ -33,12 +33,13 @@ object Form2: TForm2
     Left = 304
     Top = 8
     object FILE1: TMenuItem
-      Caption = 'FILE'
+      Caption = 'PROFIL'
+      OnClick = FILE1Click
     end
     object MENUMASTER1: TMenuItem
       Caption = 'MENU MASTER'
       object LATIHANKALKULATOR1: TMenuItem
-        Caption = 'LATIHAN KALKULATOR'
+        Caption = 'KALKULATOR '
         OnClick = LATIHANKALKULATOR1Click
       end
       object PRAKTEKMANDIRI11: TMenuItem
@@ -77,12 +78,6 @@ object Form2: TForm2
         Caption = 'LATIHAN MANDIRI BASISDATA'
         OnClick = LATIHANMANDIRIBASISDATA1Click
       end
-    end
-    object PENGATURAN1: TMenuItem
-      Caption = 'PENGATURAN'
-    end
-    object LAPORAN1: TMenuItem
-      Caption = 'LAPORAN'
     end
     object KELUAR1: TMenuItem
       Caption = 'KELUAR'

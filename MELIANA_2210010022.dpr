@@ -15,7 +15,8 @@ uses
   FormLatihanBasisData_Jadwal in 'FormLatihanBasisData_Jadwal.pas' {Form11},
   FormPrint_LatihanBasisData in 'FormPrint_LatihanBasisData.pas' {Form12},
   FormFastRepot in 'FormFastRepot.pas' {Form13},
-  FormLatihanMandiriBasisData in 'FormLatihanMandiriBasisData.pas' {Form14};
+  FormLatihanMandiriBasisData in 'FormLatihanMandiriBasisData.pas' {Form14},
+  FormProfil in 'FormProfil.pas' {Form15};
 
 {$R *.res}
 
@@ -35,5 +36,6 @@ begin
   Application.CreateForm(TForm12, Form12);
   Application.CreateForm(TForm13, Form13);
   Application.CreateForm(TForm14, Form14);
+  Application.CreateForm(TForm15, Form15);
   Application.Run;
 end.
