@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus, StdCtrls;
+  Dialogs, Menus, StdCtrls, jpeg, ExtCtrls;
 
 type
   TForm2 = class(TForm)
@@ -21,8 +21,9 @@ type
     UGASMANDIRI04GRAFIKSTRINGGRID1: TMenuItem;
     UPDATETUGASMANDIRI04GRAFIKSTRINGGRID1: TMenuItem;
     LATIHANBASISDATAJADWAL1: TMenuItem;
-    lbl3: TLabel;
     LATIHANMANDIRIBASISDATA1: TMenuItem;
+    img1: TImage;
+    lbl3: TLabel;
     procedure LATIHANKALKULATOR1Click(Sender: TObject);
     procedure PRAKTEKMANDIRI11Click(Sender: TObject);
     procedure MANDIRI02KONDISIONAL1Click(Sender: TObject);
