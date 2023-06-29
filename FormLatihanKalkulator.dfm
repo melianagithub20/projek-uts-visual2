@@ -35,11 +35,19 @@ object Form3: TForm3
     Caption = 'HASIL'
   end
   object lbl4: TLabel
-    Left = 128
-    Top = 64
-    Width = 110
-    Height = 13
+    Left = 104
+    Top = 56
+    Width = 173
+    Height = 18
     Caption = 'LATIHAN KALKULATOR'
+    Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
   end
   object lbl5: TLabel
     Left = 144

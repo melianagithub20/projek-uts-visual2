@@ -114,7 +114,7 @@ end;
 
 procedure TForm2.KELUAR1Click(Sender: TObject);
 begin
-Form2.Close;
+Application.Terminate;
 end;
 
 procedure TForm2.LATIHANMANDIRIBASISDATA1Click(Sender: TObject);

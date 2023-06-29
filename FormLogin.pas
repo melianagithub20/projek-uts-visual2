@@ -58,7 +58,7 @@ end;
 
 procedure TForm1.btn2Click(Sender: TObject);
 begin
-       Application.Terminate;
+Application.Terminate;
 end;
 
 end.

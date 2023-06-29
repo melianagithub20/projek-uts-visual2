@@ -14,11 +14,19 @@ object Form4: TForm4
   PixelsPerInch = 96
   TextHeight = 13
   object lbl1: TLabel
-    Left = 152
-    Top = 24
-    Width = 170
-    Height = 13
+    Left = 88
+    Top = 16
+    Width = 269
+    Height = 17
     Caption = 'PRAKTEK MANDIRI_1 KALKULATOR'
+    Color = clWhite
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
   end
   object lbl2: TLabel
     Left = 48
